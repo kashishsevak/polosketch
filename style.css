@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image{
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.box{
+    padding: 80px 0;
+    background-image: url(../css/image/carsketch.jpg);
+}
+
+.box1{
+    padding: 80px 0;
+    background-image: url(../css/image/carimg.jpg);
+}
+
+.box2{
+    padding: 80px 0;
+    background-image: url(../css/image/winesketch.jpg);
+}
+
+.box3{
+    padding: 80px 0;
+    background-image: url(../css/image/wineimg.jpg);
+}
+
+.box4{
+    padding: 80px 0;
+    background-image: url(../css/image/shoesketch.jpg);
+}
+
+.box5{
+    padding: 80px 0;
+    background-image: url(../css/image/shoeimg.jpg);
+}
+
+.text{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 50px 0 0 0 ;
+}
+
+.font{
+    text-align: center;
+    padding: 10px 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: normal;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+    padding: 0 80px 0 100px;
+}
+
+.col{
+    width: 50%;
+}
+
+.text1{
+    line-height: 2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 3px;
+    font-size: 18px;
+}
+
+p{
+    padding: 80px 40px;
+}
+
+img{
+    height: 400px;
+}
+
+span{
+    display: block;
+    text-align: center;
+    line-height: 1;
+}
+
+.item{
+    line-height: 2;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(113, 112, 112);
+}
+
+.item2{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2;
+}
+
+.space{
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item3{
+    padding: 20px 0 0 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.email{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(136, 224, 224);
+}
